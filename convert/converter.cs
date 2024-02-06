@@ -15,6 +15,12 @@ class Converter {
             return numberToConvert * 25.4;
         }
 
-        return 
+        return 1;
+    }
+}
+
+class ConvertToMM : Converter {
+    double Convert() {
+        return 1;
     }
 }

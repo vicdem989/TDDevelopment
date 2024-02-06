@@ -15,8 +15,8 @@ public class Program {
             double valueToConvert = double.Parse(args[0]);
             string desiredFormat = args[1].Replace("-", "");
             
-            Converter.Convert(valueToConvert, desiredFormat);
+            double convertedValue = Converter.Convert(valueToConvert, desiredFormat);
         
-            Console.WriteLine(desiredFormat);
+            Console.WriteLine(valueToConvert + " inches is " + convertedValue + " " + desiredFormat);
     }
 }
