@@ -8,12 +8,18 @@ class Converter {
         /// mm : converter
         /// cm : converter
         /// m : converter
+        
+
+        /// Fix magic double for format values
 
 
 
-        if(format == "mm") {
-            return numberToConvert * 25.4;
-        }
+        if(format == "mm") 
+            return Math.Round(numberToConvert * 25.4, 2);
+        else if (format == "cm") 
+            return Math.Round(numberToConvert * 2.54, 2);
+        else if (format == "m") 
+            return Math.Round(numberToConvert * 0.0254, 2);
 
         return 1;
     }
@@ -22,5 +28,5 @@ class Converter {
 class ConvertToMM : Converter {
     double Convert() {
         return 1;
-    }
+    }   
 }
