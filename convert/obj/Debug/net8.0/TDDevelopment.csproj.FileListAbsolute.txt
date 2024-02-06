@@ -1,0 +1,15 @@
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\TDDevelopment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\TDDevelopment.AssemblyInfoInputs.cache
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\TDDevelopment.AssemblyInfo.cs
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\TDDevelopment.csproj.CoreCompileInputs.cache
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\TDDevelopment.sourcelink.json
+C:\Users\vicde\desktop\programming2\TDDevelopment\bin\Debug\net8.0\TDDevelopment.exe
+C:\Users\vicde\desktop\programming2\TDDevelopment\bin\Debug\net8.0\TDDevelopment.deps.json
+C:\Users\vicde\desktop\programming2\TDDevelopment\bin\Debug\net8.0\TDDevelopment.runtimeconfig.json
+C:\Users\vicde\desktop\programming2\TDDevelopment\bin\Debug\net8.0\TDDevelopment.dll
+C:\Users\vicde\desktop\programming2\TDDevelopment\bin\Debug\net8.0\TDDevelopment.pdb
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\TDDevelopment.dll
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\refint\TDDevelopment.dll
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\TDDevelopment.pdb
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\TDDevelopment.genruntimeconfig.cache
+C:\Users\vicde\desktop\programming2\TDDevelopment\obj\Debug\net8.0\ref\TDDevelopment.dll

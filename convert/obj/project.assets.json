@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vicde\\Desktop\\Programming2\\TDDevelopment\\TDDevelopment.csproj",
+      "projectUniqueName": "C:\\Users\\vicde\\desktop\\programming2\\TDDevelopment\\convert\\TDDevelopment.csproj",
       "projectName": "TDDevelopment",
-      "projectPath": "C:\\Users\\vicde\\Desktop\\Programming2\\TDDevelopment\\TDDevelopment.csproj",
+      "projectPath": "C:\\Users\\vicde\\desktop\\programming2\\TDDevelopment\\convert\\TDDevelopment.csproj",
       "packagesPath": "C:\\Users\\vicde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vicde\\Desktop\\Programming2\\TDDevelopment\\obj\\",
+      "outputPath": "C:\\Users\\vicde\\desktop\\programming2\\TDDevelopment\\convert\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vicde\\AppData\\Roaming\\NuGet\\NuGet.Config"
