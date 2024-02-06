@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vicde\\desktop\\programming2\\TDDevelopment\\convert\\TDDevelopment.csproj": {}
+    "C:\\Users\\vicde\\desktop\\programming2\\convert\\convert\\TDDevelopment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vicde\\desktop\\programming2\\TDDevelopment\\convert\\TDDevelopment.csproj": {
+    "C:\\Users\\vicde\\desktop\\programming2\\convert\\convert\\TDDevelopment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vicde\\desktop\\programming2\\TDDevelopment\\convert\\TDDevelopment.csproj",
+        "projectUniqueName": "C:\\Users\\vicde\\desktop\\programming2\\convert\\convert\\TDDevelopment.csproj",
         "projectName": "TDDevelopment",
-        "projectPath": "C:\\Users\\vicde\\desktop\\programming2\\TDDevelopment\\convert\\TDDevelopment.csproj",
+        "projectPath": "C:\\Users\\vicde\\desktop\\programming2\\convert\\convert\\TDDevelopment.csproj",
         "packagesPath": "C:\\Users\\vicde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vicde\\desktop\\programming2\\TDDevelopment\\convert\\obj\\",
+        "outputPath": "C:\\Users\\vicde\\desktop\\programming2\\convert\\convert\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vicde\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,6 +1,8 @@
-﻿namespace convert;
+﻿using System.Runtime.InteropServices;
+using converter;
 
-public class Convert {
+public class Program {
+
     public static void Main(string[] args) {
         if(args.Length <= 1) {
 
@@ -8,9 +10,13 @@ public class Convert {
 
             Console.WriteLine("Input number and format as a command line argument!");
             Environment.Exit(0); /// Allow for multiple retries instead of crashing program if possible
-            }
+        }
 
-                
-
+            double valueToConvert = double.Parse(args[0]);
+            string desiredFormat = args[1].Replace("-", "");
+            
+            Converter.Convert(valueToConvert, desiredFormat);
+        
+            Console.WriteLine(desiredFormat);
     }
 }
