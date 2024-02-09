@@ -5,8 +5,6 @@ namespace program{
     using tests;
 
     class Program {
-    public static double valueToConvert = 0;
-    public static string desiredFormat = string.Empty;
         public static void Main(string[] args) {
             if(args.Length < 2 || args.Length > 3) {
                 Console.WriteLine("Input number and format as a command line argument!");
@@ -18,13 +16,9 @@ namespace program{
                     testing = true;
             }
                 
-
-            valueToConvert = double.Parse(args[0]);
-            desiredFormat = args[1].Replace("-", "");
+            double valueToConvert = double.Parse(args[0]);
+            string desiredFormat = args[1].Replace("-", "");
             
-
-
-                
             double convertedValue = Converter.Convert(valueToConvert, desiredFormat);
                 
             if(testing)
