@@ -1,22 +1,35 @@
 ﻿using System.Runtime.InteropServices;
 using converter;
 
-public class Program {
+namespace program{
+    using tests;
 
-    public static void Main(string[] args) {
-        if(args.Length <= 1) {
+    class Program {
+    public static double valueToConvert = 0;
+    public static string desiredFormat = string.Empty;
+        public static void Main(string[] args) {
+            if(args.Length <= 1) {
+                Console.WriteLine("Input number and format as a command line argument!");
+                Environment.Exit(0); 
+            }
+                bool testing = false;
+                for(int i = 0; i < args.Length; i++) {
+                    if(args[i] == "-t") 
+                        testing = true;
+                }
+                
 
-            /// Have to verify that args[0] == number and args[1] == string (mm, cm or m)
+                valueToConvert = double.Parse(args[0]);
+                desiredFormat = args[1].Replace("-", "");
 
-            Console.WriteLine("Input number and format as a command line argument!");
-            Environment.Exit(0); /// Allow for multiple retries instead of crashing program if possible
-        }
-
-            double valueToConvert = double.Parse(args[0]);
-            string desiredFormat = args[1].Replace("-", "");
+                
+                double convertedValue = Converter.Convert(valueToConvert, desiredFormat);
+                
+                if(testing)
+                    Tests.RunTests(testing, valueToConvert, desiredFormat);
             
-            double convertedValue = Converter.Convert(valueToConvert, desiredFormat);
-        
-            Console.WriteLine(valueToConvert + " inches is " + convertedValue + " " + desiredFormat);
+                Console.WriteLine(valueToConvert + " inches is " + convertedValue + " " + desiredFormat);
+                Console.WriteLine(testing);
+        }
     }
 }
